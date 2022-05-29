@@ -20,5 +20,6 @@ int main()
     {    
         std::cout<<pcBag->getWord(i) << std::endl;
     }
+    delete pcBag;
     return EXIT_SUCCESS;
 }
