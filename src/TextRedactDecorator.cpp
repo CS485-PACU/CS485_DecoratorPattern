@@ -1,3 +1,12 @@
+//***************************************************************************
+// File name:   TextRedactDecorator.cpp
+// Author:      chadd williams
+// Date:        5/29/2022
+// Class:       CS 485
+// Assignment:  Examples
+// Purpose:     Demonstrate Decorator Pattern
+//***************************************************************************
+
 #include "TextRedactDecorator.h"
 
 TextRedactDecorator::TextRedactDecorator(ITextHolder *pcTextHolder, 

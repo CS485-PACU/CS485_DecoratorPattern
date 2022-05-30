@@ -1,3 +1,12 @@
+//***************************************************************************
+// File name:   ITextDecorator.cpp
+// Author:      chadd williams
+// Date:        5/29/2022
+// Class:       CS 485
+// Assignment:  Examples
+// Purpose:     Demonstrate Decorator Pattern
+//***************************************************************************
+
 #include "ITextDecorator.h"
 
 ITextDecorator::ITextDecorator(ITextHolder *pcTextHolder) : mpcComponent(pcTextHolder)
