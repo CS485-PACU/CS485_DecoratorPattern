@@ -13,6 +13,15 @@
 #include "TextRedactDecorator.h"
 #include "TextMumbleDecorator.h"
 
+//***************************************************************************
+// Function:    main
+//
+// Description: Demonstrate decorator pattern
+//
+// Parameters:  none
+//
+// Returned:    EXIT_SUCCESS
+//***************************************************************************
 int main()
 {
     ITextHolder *pcBag = new TextRedactDecorator(
